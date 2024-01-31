@@ -1,0 +1,5 @@
+make list
+Learn c++
+Learn python
+do projects
+to add projects
