@@ -5,9 +5,9 @@ def user_guess():
     guess_number=int(input(f'Guess a number between 1 and 10 : '))
     while guess_number!=random_number:
         if guess_number> random_number:
-            temp=input('Guess too High. Guess again     : ')
+            guess_number=int(input('Guess too High. Guess again     : '))
         elif guess_number < random_number:
-            temp=input('Guess too Low. Guess again      : ')
+            guess_number=int(input('Guess too Low. Guess again      : '))
     print(f'****Congrats. You guessed the number {random_number} correctly ****')
    
 def computer_guess():
